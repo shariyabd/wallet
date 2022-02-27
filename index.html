@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========bootstrap cdn link strat here======== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- =========font awesome link============ -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!-- =========css link here============ -->
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- ============navbar start here========== -->
+
+<nav class="navbar navbar-light navbar-expand-lg py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+              
+                <h3 id="side-logo" class="d-inline align-middle color-white">IUSTITIA WALLET
+                </h3>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <i class="fa fa-bars text-light" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-2">
+                        <a class="nav-link"data-toggle="modal" data-target="#contactModal">Setting</a>
+                    </li>
+                    <li class="nav-item pl-2">
+                        <a class="nav-link" data-toggle="modal" data-target="#contactModal2" href="#">Send</a>
+                    </li>
+                    <li class="nav-item pl-2">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                    <li class="nav-item mt-2 m-2">
+                          <a href="#" class="btn btn-block btn-success">Sign Up</a>
+                    </li>
+                    <li class="nav-item mt-2 m-2">
+                        <a href="#" class="btn btn-block btn-success">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============nabvar end here=============== -->
+
+
+    
+<!-- ===========setting modal area start here============= -->
+
+<div class="modal" id="contactModal">
+    <div class="container">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h3 class="text-light"> Update Your Password</h3>
+                    <button class="close text-light" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name" class="text-light">Current Password</label>
+                            <input type="password" id="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="npassword" class="text-light">New Password</label>
+                            <input type="password" id="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="cpassword" class="text-light">Confirm Password</label>
+                            <input type="password" name="" id="password" class="form-control">
+                        </div>
+                        <input type="submit" value="Update Password" class="btn btn-primary">
+                        <button type="button" class="btn btn-secondary float-right" data-dismiss="modal">Close</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===========setting modal area end here============= -->
+
+
+
+<!-- ===========Send modal area start here============= -->
+
+<div class="modal" id="contactModal2">
+    <div class="container">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h3 class="text-light"> SEND POUND</h3>
+                    <button class="close text-light" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        
+                        <div class="form-group">
+                            <label for="Address" class="text-light">Address</label>
+                            <input type="address" id="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="Amount" class="text-light">Amount</label>
+                            <input type="number" id="name" class="form-control">
+                        </div>
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Back</button>
+                        <button type="button" class="btn btn-secondary float-right" data-dismiss="modal">Close</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===========Send modal area end here============= -->
+
+
+
+    <!-- =============section one start here========= -->
+    <section id="showcase" class="py-5 text-center text-light mt-5">
+       <div class="container bg-success">
+        <div class="primary-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-sm-5">
+                       
+                       <img src="img/planet_400px.png" width="250px" class="pt-sm-3"  alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <!-- ===============section one end here============ -->
+
+
+    <!-- ==================section two start here============= -->
+
+    <section>
+    <div class="container bg-danger py-3">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center text-light pb-5">Current Ballence</h>
+                    <input type="number" name="" id="" class="form-control rounded-sm align-middle">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =============section two end here========== -->
+
+<!-- ==============support section start here========= -->
+
+<section>
+    <div class="container py-3 text-center text-light">
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-success text-center m-auto"data-toggle="modal" data-target="#contactModal3">SUPPORT</button>
+                <p class="lead text-dark">Please click on Support above and make a note of your Key. It will be used to help identify you if you ever forget your password. This code also changes everytime you change your password.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==============support section end here============-->
+
+
+
+<!-- =========support section modal start here============ -->
+
+<div class="modal" id="contactModal3">
+    <div class="container">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h3 class="text-light text-center"> INFO</h3>
+                    <button class="close text-light" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <p class="text-light">Support Key:5686</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Back</button>
+                        <button type="button" class="btn btn-danger float-right" data-dismiss="modal">Close</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- =========support section modal start here============ -->
+
+
+<!-- =============table section start here=========== -->
+
+<section>
+    <div class="bg-secondary" id="tablepart">
+        <div class="row">
+            <div class="col-12">
+                <table class="table text-light">
+                    <tr>
+                        <td>Address</td>
+                        <td> <button class="btn btn-danger">Get A New Address</button></td>
+                        <td>QR</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-12">
+                <h3 class="text-light text-center">Last 10 transection </h3>
+                <table class="table table-striped table-light ">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Type/Amount</th>
+                            <th>Fee</th>
+                            <th>Confs</th>
+                            <th>Info</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>11/12/2021</td>
+                            <td>300$</td>
+                            <td>500$</td>
+                            <td>I don't know</td>
+                            <td>feni</td>
+                        </tr>
+                        <tr>
+                            <td>11/12/2021</td>
+                            <td>300$</td>
+                            <td>500$</td>
+                            <td>I don't know</td>
+                            <td>feni</td>
+                        </tr>
+                        <tr>
+                            <td>11/12/2021</td>
+                            <td>300$</td>
+                            <td>500$</td>
+                            <td>I don't know</td>
+                            <td>feni</td>
+                        </tr>
+                        <tr>
+                            <td>11/12/2021</td>
+                            <td>300$</td>
+                            <td>500$</td>
+                            <td>I don't know</td>
+                            <td>feni</td>
+                        </tr>
+                         <tr>
+                            <td>11/12/2021</td>
+                            <td>300$</td>
+                            <td>500$</td>
+                            <td>I don't know</td>
+                            <td>feni</td>
+                        </tr>
+                         <tr>
+                            <td>11/12/2021</td>
+                            <td>300$</td>
+                            <td>500$</td>
+                            <td>I don't know</td>
+                            <td>feni</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =============table section end here============= -->
+
+
+    <!-- ================js link here============ -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
